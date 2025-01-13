@@ -1,0 +1,137 @@
+/* styles.css */
+body {
+    text-align: center;
+}
+
+.button {
+    background-color: #4caf4c; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 200px;
+    flex: 1;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.image_size {
+    max-width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:lightskyblue;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    border: 1px solid #988f8f;
+    border-radius: 4px;
+}
+
+.submit-button {
+    background-color:#f7f2f0;
+    color: white;
+    padding: 10px 15px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: 007B9E;
+}
+
+h1 {
+    size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #494545;
+    margin: 0;    
+}
+
+p {
+    size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.section-background {
+    background-color: rgb(39, 134, 236);
+    padding: 0;
+    margin: 0;
+}
+
+figcaption {
+    size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Cat-boarding */
+
+.cat-boarding {
+    background-color: rgb(39, 134, 236);
+    padding: 0;
+    margin: 0;
+}
+
+
+/* At-home-boarding */
+
+.at-home-boarding {
+    background-color: rgb(39, 134, 236);
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Dog-boarding */
+
+.dog-boarding {
+    background-color: rgb(39, 134, 236);
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Doggie-daycare */
+
+.doggie-daycare {
+    background-color:rgb(39, 134, 236);
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
